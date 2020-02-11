@@ -1,6 +1,11 @@
 public class B{
     protected int data;
 
+    public B(){
+        this(0);
+        // passing 0 as default
+    }
+
     public B(int data){
         this.data = data;
     }
